@@ -1,0 +1,9 @@
+class Nano:
+  model = 2024
+  def topspeed(this,gear):
+    onegear = 30
+    tops = onegear * gear
+    print("the speed on",gear,"gear is",tops)
+gear = int(input("enter the gear In which you want to calculate the speed on : "))
+top : Nano = Nano()
+top.topspeed(gear)
